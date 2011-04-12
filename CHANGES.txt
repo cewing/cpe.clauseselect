@@ -4,5 +4,13 @@ Changelog
 1.0-dev (unreleased)
 ---------------------
 
+- included a basic demo app and django project in the project so we can show 
+  off the functionality of the form and widget
+  [Cris Ewing]
+
+- branched form and widget code from openemv project code as a separate 
+  project
+  [Cris Ewing]
+
 - initial package created
   [Cris Ewing]

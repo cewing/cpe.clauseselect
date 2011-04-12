@@ -5,3 +5,4 @@ var
 .installed.cfg
 *.pyc
 *.egg-info
+*.db
