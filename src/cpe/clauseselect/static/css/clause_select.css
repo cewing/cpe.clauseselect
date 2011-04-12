@@ -1,0 +1,61 @@
+.clause_trigger {
+    border: none;
+    border-bottom: 1px dotted #4a3c31;
+    color: #4a3c31;
+    font-weight: bold;
+}
+.clause_trigger:hover {
+    color: #d47b22;
+}
+.clause_popup {
+    display: none;
+    margin:0;
+    border: 1px solid #4a3c31;
+    padding: 0.1em;
+    list-style: none;
+    list-style-type: none;
+    background-color: white;
+    z-index: 10000;
+}
+.clause_selectable {
+    display: block;
+    color: black;
+    border: none;
+    text-decoration: none;
+    padding: 0.25em 0.25em 0.1em;
+}
+.clause_selectable:hover,
+.clause_selectable.selected {
+    background-color: #4a3c31;
+    color: white;
+}
+ul.clause_sentence {
+    display: inline-block;
+}
+ul.clause_sentence li.clause {
+    display: inline-block;
+}
+li.clause_refinements {
+    display: inline-block;
+    font-size: 65%;
+    margin: -0.5em 0.75em 0em;
+}
+p.clause_refinements_header {
+    margin-bottom: -1px;
+}
+p.clause_refinements_header a {
+    border: 1px solid #5a6166;
+    padding: 0em 0.25em;
+}
+ul.clause_refinements_fields {
+    padding: 0.5em 1em;
+    display: none;
+    z-index: 10000;
+    margin-bottom: 2em;
+    width: 10em;
+    border: 1px solid #5a6166;
+    background-color: white;
+}
+ul.clause_refinements_fields li.clause {
+    display: block;
+}

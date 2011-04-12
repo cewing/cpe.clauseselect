@@ -1,0 +1,2 @@
+
+from clausedemo.settings import *
