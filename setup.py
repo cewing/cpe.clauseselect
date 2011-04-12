@@ -10,9 +10,11 @@ long_description = (
     open('CHANGES.txt').read()
     + '\n')
 
+description = "Django form and widget for sentence-based filtering"
+
 setup(name='cpe.clauseselect',
       version=version,
-      description="Interface and form elements for sentence-based filtering in Django",
+      description=description,
       long_description=long_description,
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
